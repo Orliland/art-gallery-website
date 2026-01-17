@@ -1,0 +1,40 @@
+/* DESIGN SYSTEM */
+:root {
+  --gold: #d5966c;
+  --almost-black: #151515;
+  --white: #ffffff;
+  --dark-gray: #444444;
+
+  font-size: 62.5%;
+  --big-shoulders: "Big Shoulders", sans-serif;
+  --outfit: "Outfit", sans-serif;
+}
+
+/* FONTS */
+.headline-xl {
+  font-family: var(--big-shoulders);
+  font-size: 9.6rem;
+  font-weight: 900;
+  line-height: 8.8rem;
+}
+
+.headline-l {
+  font-family: var(--big-shoulders);
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 7rem;
+}
+
+.headline-m {
+  font-family: var(--big-shoulders);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 5rem;
+}
+
+.headline-s {
+  font-family: var(--big-shoulders);
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 3.6rem;
+}
