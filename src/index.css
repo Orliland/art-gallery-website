@@ -10,6 +10,12 @@
   --outfit: "Outfit", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* FONTS */
 .headline-xl {
   font-family: var(--big-shoulders);
@@ -37,4 +43,18 @@
   font-size: 3.6rem;
   font-weight: 900;
   line-height: 3.6rem;
+}
+
+.body-m {
+  font-family: var(--outfit);
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+}
+
+.body-s {
+  font-family: var(--outfit);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.8rem;
 }
