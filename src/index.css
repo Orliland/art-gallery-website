@@ -17,33 +17,35 @@
 }
 
 /* FONTS */
-.headline-xl {
+.headline {
   font-family: var(--big-shoulders);
-  font-size: 9.6rem;
   font-weight: 900;
-  line-height: 8.8rem;
-}
-
-.headline-l {
-  font-family: var(--big-shoulders);
-  font-size: 7rem;
-  font-weight: 900;
-  line-height: 7rem;
-}
-
-.headline-m {
-  font-family: var(--big-shoulders);
   font-size: 6rem;
-  font-weight: 900;
   line-height: 5rem;
 }
 
-.headline-s {
+@media (min-width: 768px) {
+  .headline {
+    font-size: 7rem;
+    line-height: 6.5rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headline {
+    font-size: 9.6rem;
+    line-height: 8.8rem;
+  }
+}
+
+/* Check if this styles already are applied in the design */
+/* .headline-s {
   font-family: var(--big-shoulders);
   font-size: 3.6rem;
   font-weight: 900;
   line-height: 3.6rem;
-}
+} */
 
 .body-m {
   font-family: var(--outfit);
@@ -57,4 +59,5 @@
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 2.8rem;
+  letter-spacing: 0;
 }
