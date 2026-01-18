@@ -20,12 +20,17 @@ function Hero() {
       </picture>
       <div className="hero__body">
         <h1 className="headline hero__title">MODERN ART GALLERY</h1>
-        <p className="body-s hero__description">
+        <p className="body-text hero__description">
           The arts in the collection of the Modern Art Gallery all started from
           a spark of inspiration. Will these pieces inspire you? Visit us and
           find out.
         </p>
-        <Button text="OUR LOCATION" url="/location" action="to" />
+        <Button
+          text="OUR LOCATION"
+          url="/location"
+          action="to"
+          className="hero__button"
+        />
       </div>
     </section>
   );
