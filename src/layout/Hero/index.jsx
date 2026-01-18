@@ -4,6 +4,8 @@ import HeroMobile from "../../assets/mobile/image-hero.jpg";
 import HeroTablet from "../../assets/tablet/image-hero.jpg";
 import HeroDesktop from "../../assets/desktop/image-hero.jpg";
 
+import Button from "../../components/Button";
+
 function Hero() {
   return (
     <section className="hero">
@@ -23,6 +25,7 @@ function Hero() {
           a spark of inspiration. Will these pieces inspire you? Visit us and
           find out.
         </p>
+        <Button text="OUR LOCATION" url="/location" action="to" />
       </div>
     </section>
   );

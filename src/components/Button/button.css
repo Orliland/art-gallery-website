@@ -1,0 +1,42 @@
+.button {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.button__icon {
+  padding: 2.4rem;
+  background-color: var(--gold);
+}
+
+.button:hover .button__icon {
+  transition: background-color 0.3s ease;
+  background-color: var(--almost-black);
+}
+
+.button__img {
+  width: 0.8rem;
+  height: 2.4rem;
+}
+
+.button__text {
+  display: inline-block;
+  padding: 2.4rem 3.2rem;
+
+  background-color: var(--almost-black);
+
+  font-family: var(--big-shoulders);
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.364rem;
+  color: var(--white);
+}
+
+.button:hover .button__text {
+  transition: background-color 0.3s ease;
+  background-color: var(--gold);
+  color: var(--almost-black);
+}
+
+.change-order {
+  order: 2;
+}
