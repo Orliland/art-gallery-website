@@ -3,9 +3,9 @@ import "./button.css";
 import IconArrowLeft from "../../assets/icon-arrow-left.svg";
 import IconArrowRight from "../../assets/icon-arrow-right.svg";
 
-function Button({ text, url, action }) {
+function Button({ text, url, action, className }) {
   return (
-    <a href={url} className="button">
+    <a href={url} className={`button ${className}`}>
       <picture
         className={`button__icon ${action === "to" ? "change-order" : ""}`}
       >
