@@ -1,7 +1,18 @@
+.hero {
+  display: grid;
+}
+
 .thumbnail {
   width: 100%;
 }
 
 .thumbnail__image {
   width: 100%;
+}
+
+.hero__body {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 3.2rem 1.6rem;
 }
