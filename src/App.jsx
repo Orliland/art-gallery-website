@@ -1,10 +1,12 @@
 import "./App.css";
 
+import Hero from "./layout/Hero";
+
 function App() {
   return (
-    <div>
-      <h1>Art Gallery Website</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
 
