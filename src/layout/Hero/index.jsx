@@ -19,8 +19,8 @@ function Hero() {
         />
       </picture>
       <div className="hero__body">
-        <h1 className="headline-m">MODERN ART GALLERY</h1>
-        <p className="body-s">
+        <h1 className="headline hero__title">MODERN ART GALLERY</h1>
+        <p className="body-s hero__description">
           The arts in the collection of the Modern Art Gallery all started from
           a spark of inspiration. Will these pieces inspire you? Visit us and
           find out.
