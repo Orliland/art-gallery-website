@@ -1,0 +1,18 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 1.6rem;
+}
+
+.grid__header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.grid__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}

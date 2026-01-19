@@ -1,11 +1,13 @@
 import "./App.css";
 
 import Hero from "./layout/Hero";
+import Grid from "./layout/Grid";
 
 function App() {
   return (
-    <main>
+    <main className="main">
       <Hero />
+      <Grid />
     </main>
   );
 }
