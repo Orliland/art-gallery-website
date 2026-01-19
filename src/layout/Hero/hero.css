@@ -5,7 +5,6 @@
 .thumbnail {
   position: relative;
   width: 100%;
-  z-index: -1;
 }
 
 .thumbnail__image {
@@ -43,6 +42,8 @@
     width: 33.5rem;
     margin-right: 4rem;
     padding: 0;
+
+    z-index: 1;
   }
 }
 
@@ -79,6 +80,16 @@
 
   .hero__title {
     max-width: 45rem;
+    mix-blend-mode: difference;
+    background: linear-gradient(
+      to right,
+      var(--white) 0%,
+      var(--white) 63.3%,
+      var(--almost-black) 63.3%,
+      var(--almost-black) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .hero__button {
