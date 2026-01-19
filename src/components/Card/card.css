@@ -1,0 +1,11 @@
+.card--dark {
+  padding: 4.8rem 2.4rem;
+
+  background-color: var(--almost-black);
+
+  color: var(--white);
+}
+
+.card__title {
+  margin-bottom: 2.4rem;
+}

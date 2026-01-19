@@ -39,6 +39,14 @@
   }
 }
 
+.subheadline {
+  font-family: var(--big-shoulders);
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  letter-spacing: 0px;
+}
+
 /* Check if this styles already are applied in the design */
 /* .headline-s {
   font-family: var(--big-shoulders);
