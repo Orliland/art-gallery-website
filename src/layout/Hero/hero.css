@@ -84,8 +84,8 @@
     background: linear-gradient(
       to right,
       var(--white) 0%,
-      var(--white) 63.3%,
-      var(--almost-black) 63.3%,
+      var(--white) clamp(30%, calc(50vw - 27rem), 63.3%),
+      var(--almost-black) clamp(30%, calc(50vw - 27rem), 63.3%),
       var(--almost-black) 100%
     );
     -webkit-background-clip: text;
