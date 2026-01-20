@@ -61,7 +61,8 @@
     display: block;
     margin: 0 auto;
     width: auto;
-    height: 80rem;
+    /* height: 80rem; */
+    height: 100vh;
   }
 
   .hero__body {
@@ -84,8 +85,8 @@
     background: linear-gradient(
       to right,
       var(--white) 0%,
-      var(--white) clamp(30%, calc(50vw - 27rem), 63.3%),
-      var(--almost-black) clamp(30%, calc(50vw - 27rem), 63.3%),
+      var(--white) clamp(30%, calc(50vw - 27rem), 62%),
+      var(--almost-black) clamp(30%, calc(50vw - 27rem), 62%),
       var(--almost-black) 100%
     );
     -webkit-background-clip: text;
