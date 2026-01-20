@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+  align-items: flex-start;
+
+  padding: 4.8rem 3.2rem;
+  background-color: var(--gold);
+
+  color: var(--almost-black);
+}
+
+.footer.is-dark {
+  background-color: var(--almost-black);
+
+  color: var(--white);
+}
+
+.footer__logo {
+  width: auto;
+  height: 4rem;
+}
