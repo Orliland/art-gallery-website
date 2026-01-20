@@ -16,3 +16,53 @@
   flex-direction: column;
   gap: 1.6rem;
 }
+
+.grid__body-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    padding: 0 4rem;
+    gap: 1.2rem;
+  }
+
+  .grid__header {
+    flex-direction: row;
+    gap: 6.8rem;
+  }
+
+  .grid__header .picture {
+    width: auto;
+    order: 2;
+  }
+  .grid__header .picture__image {
+    width: auto;
+    height: 40rem;
+  }
+
+  .grid__header .card {
+    align-self: center;
+  }
+
+  .grid__body {
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .grid__body-1 .grid__body-1__image {
+    width: auto;
+    height: 72rem;
+  }
+
+  .grid__body-flex {
+    gap: 1.2rem;
+  }
+
+  .grid__body-flex .card {
+    flex: 1;
+    align-content: center;
+  }
+}

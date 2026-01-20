@@ -8,19 +8,21 @@ function Grid() {
       <div className="grid__header">
         <Image src="image-grid-1.jpg" />
         <Card
-          title="Your Day at the Gallery"
+          title="YOUR DAY AT THE GALLERY"
           content="Wander through our distinct collections and find new insights about our artists. Dive into the details of their creative process."
           isDark={false}
         />
       </div>
       <div className="grid__body">
-        <Image src="image-grid-2.jpg" />
-        <Image src="image-grid-3.jpg" />
-        <Card
-          title="COME & BE INSPIRED"
-          content="We’re excited to welcome you to our gallery and see how our collections influence you."
-          isDark={true}
-        />
+        <Image src="image-grid-2.jpg" className="grid__body-1" />
+        <div className="grid__body-flex">
+          <Image src="image-grid-3.jpg" />
+          <Card
+            title="COME & BE INSPIRED"
+            content="We’re excited to welcome you to our gallery and see how our collections influence you."
+            isDark={true}
+          />
+        </div>
       </div>
     </section>
   );
