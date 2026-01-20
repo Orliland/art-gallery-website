@@ -6,9 +6,9 @@ import InstagramIcon from "../../assets/icon-instagram.svg";
 
 function Link({ icon, href, alt }) {
   return (
-    <li className="links__item">
-      <a className="links__link" href={href}>
-        <img className="links__icon" src={icon} alt={alt} />
+    <li className="link__item">
+      <a className="link__link" href={href}>
+        <img className="link__icon" src={icon} alt={alt} />
       </a>
     </li>
   );

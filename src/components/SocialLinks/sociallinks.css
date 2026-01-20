@@ -6,9 +6,14 @@
   list-style: none;
 }
 
-/* Add hover styles */
-
 .link_icon {
   width: 2rem;
   height: 2rem;
+  filter: brightness(0) saturate(100%) invert(68%) sepia(46%) saturate(419%)
+    hue-rotate(356deg);
+}
+
+.link__icon:hover {
+  filter: brightness(0) saturate(100%) invert(68%) sepia(46%) saturate(419%)
+    hue-rotate(356deg);
 }
