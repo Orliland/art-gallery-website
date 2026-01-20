@@ -32,13 +32,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .headline {
-    font-size: 9.6rem;
-    line-height: 8.8rem;
-  }
-}
-
 .subheadline {
   font-family: var(--big-shoulders);
   font-size: 5rem;
@@ -47,13 +40,17 @@
   letter-spacing: 0px;
 }
 
-/* Check if this styles already are applied in the design */
-/* .headline-s {
-  font-family: var(--big-shoulders);
-  font-size: 3.6rem;
-  font-weight: 900;
-  line-height: 3.6rem;
-} */
+@media (min-width: 1024px) {
+  .headline {
+    font-size: 9.6rem;
+    line-height: 8.8rem;
+  }
+
+  .subheadline {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+}
 
 .body-text {
   font-family: var(--outfit);

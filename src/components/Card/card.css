@@ -1,5 +1,5 @@
 .card--dark {
-  padding: 4.8rem 2.4rem;
+  padding: 0 2.4rem;
 
   background-color: var(--almost-black);
 
@@ -8,4 +8,10 @@
 
 .card__title {
   margin-bottom: 2.4rem;
+}
+
+@media (min-width: 1024px) {
+  .card--dark {
+    padding: 0 4.8rem;
+  }
 }
