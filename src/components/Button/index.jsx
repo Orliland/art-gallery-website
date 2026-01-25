@@ -1,11 +1,13 @@
 import "./button.css";
 
+import { Link } from "react-router";
+
 import IconArrowLeft from "../../assets/icon-arrow-left.svg";
 import IconArrowRight from "../../assets/icon-arrow-right.svg";
 
 function Button({ text, url, action, className }) {
   return (
-    <a href={url} className={`button ${className}`}>
+    <Link to={url} className={`button ${className}`}>
       <picture
         className={`button__icon ${action === "to" ? "change-order" : ""}`}
       >
@@ -17,7 +19,7 @@ function Button({ text, url, action, className }) {
       </picture>
 
       <span className="button__text">{text}</span>
-    </a>
+    </Link>
   );
 }
 
